@@ -1,8 +1,10 @@
-## factorial 만들기
-``````````javascript
 function factorial(n) {
   let result = 1;
 	
+  for(let i = 1; i <= n; i++){
+	  result = result * i;
+	}
+  
   return result;
 }
 
@@ -11,4 +13,3 @@ console.log(factorial(12));
 console.log(factorial(6));
 console.log(factorial(3));
 console.log(factorial(0));
-````````````
